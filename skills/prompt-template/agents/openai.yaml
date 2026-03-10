@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prompt Template"
+  short_description: "Fetch reusable prompt skeletons for common tasks"
+  default_prompt: "Use $prompt-template to fetch a reusable prompt skeleton before starting the task."

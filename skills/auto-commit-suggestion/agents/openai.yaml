@@ -1,0 +1,4 @@
+interface:
+  display_name: "Auto Commit Suggestion"
+  short_description: "Check whether a repo is ready for a checkpoint commit"
+  default_prompt: "Use $auto-commit-suggestion to check whether this repo is ready for a checkpoint commit."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Todo Tracker"
+  short_description: "Scan a repo for TODO, FIXME, and HACK markers"
+  default_prompt: "Use $todo-tracker to scan this repo for TODO and FIXME markers and summarize them."

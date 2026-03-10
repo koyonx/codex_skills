@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cost Tracker"
+  short_description: "Summarize recent Codex token usage for a workspace"
+  default_prompt: "Use $cost-tracker to summarize recent Codex token usage for this workspace."

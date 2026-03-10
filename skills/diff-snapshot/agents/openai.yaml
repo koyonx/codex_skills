@@ -1,0 +1,4 @@
+interface:
+  display_name: "Diff Snapshot"
+  short_description: "Create and restore manual file safety snapshots"
+  default_prompt: "Use $diff-snapshot to snapshot risky files before edits and restore them if needed."
