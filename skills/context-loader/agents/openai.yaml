@@ -1,0 +1,4 @@
+interface:
+  display_name: "Context Loader"
+  short_description: "Load curated project context files into the session"
+  default_prompt: "Use $context-loader to load the files listed in this repo config."
