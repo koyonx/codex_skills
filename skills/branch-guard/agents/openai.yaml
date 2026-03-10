@@ -1,0 +1,4 @@
+interface:
+  display_name: "Branch Guard"
+  short_description: "Check protected-branch safety before commit or push"
+  default_prompt: "Use $branch-guard before commit or push work to verify the current branch is safe."
