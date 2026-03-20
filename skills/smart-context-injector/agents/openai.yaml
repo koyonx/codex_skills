@@ -1,0 +1,4 @@
+interface:
+  display_name: "Smart Context Injector"
+  short_description: "Analyze prompts to find related files, tests, and recent git changes"
+  default_prompt: "Use $smart-context-injector to enrich the current prompt with related files and context."
