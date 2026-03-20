@@ -1,0 +1,4 @@
+interface:
+  display_name: "Session History"
+  short_description: "Save, list, and view Codex session history as readable Markdown"
+  default_prompt: "Use $session-history to save or review past Codex session transcripts."
