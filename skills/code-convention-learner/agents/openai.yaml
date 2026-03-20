@@ -1,0 +1,4 @@
+interface:
+  display_name: "Code Convention Learner"
+  short_description: "Analyze and recall project coding conventions"
+  default_prompt: "Use $code-convention-learner to learn or display coding conventions for this project."
