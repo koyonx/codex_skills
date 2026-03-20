@@ -1,0 +1,4 @@
+interface:
+  display_name: "Env Sync"
+  short_description: "Compare .env vs .env.example and detect missing keys"
+  default_prompt: "Use $env-sync to check if .env and .env.example are in sync in this repo."
