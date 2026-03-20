@@ -1,0 +1,4 @@
+interface:
+  display_name: "Change Impact Analyzer"
+  short_description: "Analyze import graphs to find files affected by changes"
+  default_prompt: "Use $change-impact-analyzer to find files impacted by my recent changes."
