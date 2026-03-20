@@ -1,0 +1,4 @@
+interface:
+  display_name: "Error Memory"
+  short_description: "Record and recall error patterns with their solutions"
+  default_prompt: "Use $error-memory to record this error or look up known fixes for this project."
