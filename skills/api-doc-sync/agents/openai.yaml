@@ -1,0 +1,4 @@
+interface:
+  display_name: "API Doc Sync"
+  short_description: "Scan a repo for API routes and check documentation freshness"
+  default_prompt: "Use $api-doc-sync to scan this repo for API endpoints and verify documentation is up to date."
