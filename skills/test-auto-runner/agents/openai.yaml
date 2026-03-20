@@ -1,0 +1,4 @@
+interface:
+  display_name: "Test Auto Runner"
+  short_description: "Find and run tests related to changed source files"
+  default_prompt: "Use $test-auto-runner to discover and execute tests for the files I changed."
