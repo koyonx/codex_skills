@@ -1,0 +1,4 @@
+interface:
+  display_name: "Framework Vuln Scanner"
+  short_description: "Check runtime and framework versions for EOL or vulnerabilities"
+  default_prompt: "Use $framework-vuln-scanner to check this repo for outdated or vulnerable runtime and framework versions."
