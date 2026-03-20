@@ -1,0 +1,4 @@
+interface:
+  display_name: "Workflow Replay"
+  short_description: "Record tool operations as reusable recipes and replay them"
+  default_prompt: "Use $workflow-replay to record, save, list, run, or delete workflow recipes."
