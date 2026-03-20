@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cross Repo Linker"
+  short_description: "Manage cross-repository dependency links"
+  default_prompt: "Use $cross-repo-linker to link, unlink, list, or check related repositories."
