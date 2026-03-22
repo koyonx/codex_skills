@@ -1,0 +1,21 @@
+name: session-handoff
+description: >
+  Generate, load, or list session handoff notes for seamless context transfer
+  between Codex sessions. Captures git state, recent commits, and working tree
+  status so a new session can resume where the previous one left off.
+instructions: |
+  Use the session_handoff.py script to manage handoff notes.
+
+  To generate a handoff note at the end of a session:
+    python3 scripts/session_handoff.py --repo <project-root> --action generate
+
+  To load a previous session's context:
+    python3 scripts/session_handoff.py --repo <project-root> --action load --latest
+    python3 scripts/session_handoff.py --repo <project-root> --action load --session-id <id>
+
+  To list available handoff notes:
+    python3 scripts/session_handoff.py --repo <project-root> --action list
+
+  Notes are stored as JSON in ~/.codex/session-handoff/ and auto-cleaned after 30 days.
+tools:
+  - type: bash
