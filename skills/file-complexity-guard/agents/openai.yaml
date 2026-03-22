@@ -1,0 +1,33 @@
+name: file-complexity-guard
+description: >
+  Analyze source files for complexity metrics including file length,
+  function length, and nesting depth. Flags violations against
+  configurable thresholds.
+interface:
+  input:
+    - name: repo
+      type: string
+      description: Path to the project root directory.
+      required: true
+    - name: files
+      type: array
+      items:
+        type: string
+      description: Specific files to check. Defaults to git-modified files when omitted.
+      required: false
+    - name: max_lines
+      type: integer
+      description: Maximum allowed lines per file (default 300).
+      required: false
+    - name: max_func_lines
+      type: integer
+      description: Maximum allowed lines per function (default 50).
+      required: false
+    - name: max_nesting
+      type: integer
+      description: Maximum allowed nesting depth (default 5).
+      required: false
+  output:
+    - name: warnings
+      type: array
+      description: List of complexity warnings grouped by file.
