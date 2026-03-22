@@ -1,0 +1,29 @@
+interface:
+  name: performance-monitor
+  description: >
+    Track command execution times, detect performance anomalies, review build
+    time trends, and identify slow commands in a project.
+  inputs:
+    - name: repo
+      type: string
+      description: Absolute path to the project root directory.
+    - name: action
+      type: string
+      enum:
+        - record
+        - trends
+        - anomalies
+      description: The action to perform.
+    - name: command
+      type: string
+      description: The command that was executed (required when action is record).
+    - name: duration_ms
+      type: integer
+      description: Execution duration in milliseconds (required when action is record).
+    - name: exit_code
+      type: integer
+      description: Exit code of the command (required when action is record).
+  outputs:
+    - name: result
+      type: string
+      description: Human-readable output of the requested action.
