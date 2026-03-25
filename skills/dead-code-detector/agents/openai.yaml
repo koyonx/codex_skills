@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dead Code Detector"
+  short_description: "Detect remaining references to removed or renamed identifiers"
+  default_prompt: "Use $dead-code-detector to scan for dead references after recent edits."
