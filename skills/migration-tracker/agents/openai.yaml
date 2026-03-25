@@ -1,0 +1,4 @@
+interface:
+  display_name: "Migration Tracker"
+  short_description: "Detect model/schema changes and remind about database migrations"
+  default_prompt: "Use $migration-tracker to check if model changes need a database migration."
