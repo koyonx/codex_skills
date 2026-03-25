@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dependency Watchdog"
+  short_description: "Audit project dependencies for known vulnerabilities"
+  default_prompt: "Use $dependency-watchdog to check this repo's dependencies for vulnerabilities."
